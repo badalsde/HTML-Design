@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+*{
+    margin:0px;
+}
+.container{
+    text-align: center;
+}
+
+
+/* Navigation Bar */
+.navigation{
+          width: 100%;
+          height: 100vh;
+          background-image: url("Group-15.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+
+.navbar{
+        padding:1px;
+        color: white;
+}
+.badal a{
+    font-size: 12px;
+}
+
+/** Form Start **/
+.form-gp{
+      width:32%;
+      height: 85vh;
+      float: center;
+      margin: 50px 35%;
+      font-size: 17px;
+}
+.form-header{
+  background-color: #16222A;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#f-p1{
+    font-size:25px;
+    color:green;
+    padding-bottom: 0px;
+}
+#f-h4{
+    color:white;
+}
+#card-form{
+  background-color: #151c21;
+  color:white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+h5{
+  font-size: 15px;
+}
+#form-button{
+    margin: auto;
+    font-size: 16px;
+    height: 40px;
+    background-color: green;
+    color:white;
+}
+.bad{
+    font-size: 12px;
+    width: 95px;
+    border:1px solid white;
+    border-radius: 30px;
+}
+
+/** Card **/
+.card{
+    border-radius: 20px;
+}
+
+.card2 img{
+    height:150px;
+    background-color: #16222A;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card img{
+    height:150px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.card-body .form-group{
+        padding-left:45px;
+        padding-right: 45px;
+}
+
+/** Banner-1 CSS **/
+.banner-1{
+
+}
+.card2-img, .card2-img-bottom, .card2-img-top {
+  width: 100%;
+  padding: 35px 84px;
+}
+
+#banner-1-h4{
+    margin:30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#banner-1-card{
+        text-align: center;
+}
+
+/** Banner-2 CSS **/
+.banner-2{
+  background-color: #bfbfb8;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card .card-horizontal .img-square-wrapper img{
+      height:305px;
+      border-radius: 20px 0px 0px 20px;
+}
+
+.card .card-horizontal .card-body .card-title{
+      font-size: 20px;
+}
+
+#banner-2-h4{
+    text-align: center;
+    padding:20px;
+}
+
+#banner-2-pic1 #banner-2-pic2{
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.card-body button{
+  height:45px;
+  width:100px;
+  border-radius: 1.3em;
+  padding-bottom: 30px;
+}
+
+
+
+/** Banner-3 CSS **/
+.banner-3{
+    background :url("Group 16.png");
+
+    padding:20px 20px;
+    padding-bottom: 40px;
+}
+
+#banner-3-h4{
+    color: white;
+    text-align: center;
+}
+
+#banner-3-p{
+    color:white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#banner-3-ceo{
+    color:green;
+}
+
+/** Banner-4 CSS **/
+
+.banner-4{
+    color:dark;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#banner-4-img{
+    margin: 20px;
+    padding-left:30px;
+    heigth:100px;
+    width:100px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top:100px;
+}
+
+.footer-pad{
+    text-align: justify;
+    padding-left: 60px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
